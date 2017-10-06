@@ -1,5 +1,5 @@
 #!/bin/sh
 
-/usr/sbin/depmod -b /var
+depmod -b /var
 
 modprobe -d /var hellomod
