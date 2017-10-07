@@ -1,4 +1,7 @@
-A kernel module distributed as a system container
+A kernel module distributed as a system container.
+
+It takes advantage of the `noContainerService` directive in the
+manifest.json file so that a systemd service file is not installed.
 
 ```
 ## The Docker container is built by the Makefile
